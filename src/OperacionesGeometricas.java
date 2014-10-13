@@ -20,7 +20,7 @@ public static void main (String args[])
   radio = sc.nextDouble();
  
   //Circulo circu = new Circulo(radio);
-  Figura circulo = new Circulo("circulo",radio);
+  Figura circu = new Circulo("circulo",radio);
 
   System.out.println("\nEl area del circulo es: " + circu.area());
   System.out.println("\nLa circunferencia del circulo es: " + circu.circu());
