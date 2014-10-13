@@ -42,4 +42,9 @@ public double peri()
 	peri = 2*getbase()+2*getaltura();
 	return peri;
 }
+ public void mostrar()
+ {
+    System.out.println("\nEl area del rectangulo es: " + area());
+    System.out.println("\nEl perimetro del rectangulo es: " + peri());
+ }
 }

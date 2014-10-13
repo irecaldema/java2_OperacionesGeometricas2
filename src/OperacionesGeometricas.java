@@ -37,10 +37,11 @@ public static void main (String args[])
    
    //Rectangulo recta = new Rectangulo(base,altura);
    Figura recta = new Rectangulo("rectangulo",base,altura);
-
+   /*
    System.out.println("\nEl area del rectangulo es: " + recta.area());
-   System.out.println("\nEl Perimetro del rectangulo es: " + recta.peri());
-
+   System.out.println("\nEl perimetro del rectangulo es: " + recta.peri());
+   */
+   recta.mostrar();
  }
  else
  {
