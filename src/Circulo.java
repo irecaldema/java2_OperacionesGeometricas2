@@ -1,4 +1,4 @@
-public class Circulo {
+public class Circulo extends Figura{
 
 	static final double NUM_PI =3.1416;
 	private String nombre;

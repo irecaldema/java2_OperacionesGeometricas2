@@ -1,4 +1,4 @@
-public class Rectangulo {
+public class Rectangulo extends Figura{
 	private String nombre;
 	private double base, altura, area, peri ;
 
