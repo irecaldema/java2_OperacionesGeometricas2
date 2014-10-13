@@ -7,20 +7,10 @@ public class Figura {
 	this.nombre=nombre;
  }
 	
-public void setRadio(double radio) 
+public void mostrar()
  {
-	this.radio = radio;
- }
- 
-public double Area() 
- {	
-	area = NUM_PI*radio*radio;
-	return area;
- }
- 
-public double Circu() 
- {	
-	circu = 2*NUM_PI*radio;
-	return circu;
+    /*System.out.println("\nBike is " + "in gear " + this.gear
+        + " with a cadence of " + this.cadence +
+        " and travelling at a speed of " + this.speed + ". ");*/
  }
 }
