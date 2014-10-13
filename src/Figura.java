@@ -2,7 +2,7 @@ public class Figura {
 
 	private double nombre;
 	
-	public Figura(nombre)
+	public Figura(String nombre)
  {
 	this.nombre=nombre;
  }
