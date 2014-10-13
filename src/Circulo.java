@@ -28,4 +28,10 @@ public double circu()
 	circu = 2*NUM_PI*radio;
 	return circu;
  }
+ 
+ public void mostrar()
+ {
+    System.out.println("\nEl area del circulo es: " + area());
+    System.out.println("\nLa circunferencia del circulo es: " + circu());
+ }
 }

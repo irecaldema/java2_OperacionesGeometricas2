@@ -21,10 +21,11 @@ public static void main (String args[])
  
   //Circulo circu = new Circulo(radio);
   Figura circu = new Circulo("circulo",radio);
-
+  /*
   System.out.println("\nEl area del circulo es: " + circu.area());
   System.out.println("\nLa circunferencia del circulo es: " + circu.circu());
-
+  */
+  circu.mostrar();
  }
  else  if(opcion=='R'||opcion=='r')
  { 
