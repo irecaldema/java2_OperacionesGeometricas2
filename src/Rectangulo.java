@@ -44,6 +44,7 @@ public double peri()
 }
  public void mostrar()
  {
+    super.mostrar();
     System.out.println("\nEl area del rectangulo es: " + area());
     System.out.println("\nEl perimetro del rectangulo es: " + peri());
  }

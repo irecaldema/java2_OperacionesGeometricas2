@@ -31,6 +31,7 @@ public double circu()
  
  public void mostrar()
  {
+    super.mostrar();
     System.out.println("\nEl area del circulo es: " + area());
     System.out.println("\nLa circunferencia del circulo es: " + circu());
  }

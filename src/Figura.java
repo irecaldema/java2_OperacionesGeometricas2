@@ -9,6 +9,6 @@ public class Figura {
 	
 public void mostrar()
  {
-    System.out.println("\n"+this.nombre+": \n");
+    System.out.println("\n"+this.nombre+":");
  }
 }
